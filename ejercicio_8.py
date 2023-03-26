@@ -5,4 +5,4 @@ segundos =  float(input("Digite la cantidad de segundos: "))
 
 minutos = segundos/60
 
-print(f"{segundos} segundos son {minutos} minutos")
+print(f"{segundos} segundos son {minutos:2f} minutos")
